@@ -1,24 +1,28 @@
 import React from "react";
-import Home from "./pages/Home";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Error from "./pages/Error";
-import Success from "./pages/Success";
-import ProtectedRoute from "./components/ProtectedRoute";
+import Home from "./components/Home";
+import Nav from "./components/Nav";
+import About from "./components/About";
+import PortFolio from "./components/PortFolio";
+import Experiance from "./components/Experience";
+import Footer from "./components/Footer";
+import toast, { Toaster } from "react-hot-toast";
+import Form from "./components/Form";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route
-          path="/success"
-          element={<ProtectedRoute element={<Success />} />}
-        ></Route>
-        <Route path="/*" element={<Error />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <div>
+        <Nav />
+        <Home />
+        <About />
+        <PortFolio />
+        <Experiance />
+        <Form />
+        <Footer />
+      </div>
+      <Toaster />
+    </>
   );
-  // return <Home />;
 };
 
 export default App;
