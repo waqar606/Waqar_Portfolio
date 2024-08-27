@@ -162,7 +162,7 @@ function PortFolio() {
               </button>
               <button
                 onClick={() =>
-                  window.open("https://github.com/waqar606/PizMax")
+                  window.open("https://my-pizza-sooty.vercel.app/")
                 }
                 className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
               >
