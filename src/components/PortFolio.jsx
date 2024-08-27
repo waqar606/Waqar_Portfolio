@@ -155,14 +155,14 @@ function PortFolio() {
             </div>
             <div className="flex px-6 py-3 space-x-3 lg:justify-around">
               <button
-                onClick={() => window.open("https://piz-max.vercel.app/")}
+                onClick={() => window.open("https://my-pizza-sooty.vercel.app/")}
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-3 rounded"
               >
                 Live
               </button>
               <button
                 onClick={() =>
-                  window.open("https://my-pizza-sooty.vercel.app/")
+                  window.open("https://github.com/waqar606/MyPizza")
                 }
                 className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
               >
