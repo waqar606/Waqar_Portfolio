@@ -271,6 +271,14 @@ function PortFolio() {
             <div className="flex px-6 py-3 space-x-3 lg:justify-around">
               <button
                 onClick={() =>
+                  window.open("https://react-recipy.vercel.app/")
+                }
+                className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
+              >
+                Live
+              </button>
+              <button
+                onClick={() =>
                   window.open("https://github.com/waqar606/React-Recipy")
                 }
                 className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
